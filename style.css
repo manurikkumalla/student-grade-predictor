@@ -1,0 +1,21 @@
+body {
+    background-color: #f3f4f6;
+    color: #1f2937;
+    font-family: 'Poppins', sans-serif;
+}
+.icon-circle {
+    background: linear-gradient(135deg, #4f46e5, #06b6d4);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.card { border-radius: 16px; transition: transform 0.2s; }
+.card:hover { transform: translateY(-2px); }
+.bg-indigo { background: linear-gradient(135deg, #4f46e5, #3b82f6); }
+.btn-primary { background-color: #4f46e5; border-color: #4f46e5; border-radius: 10px; }
+.btn-primary:hover { background-color: #4338ca; }
+.form-control, .form-select { border-radius: 10px; padding: 10px 14px; border: 1px solid #e5e7eb; }
+.btn-delete { background: none; border: none; color: #ef4444; }
